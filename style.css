@@ -1,0 +1,260 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #0a0b27;
+    display: flex;
+}
+body{
+    margin: 0;
+}
+.logo{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+  width: 114px;
+    height: 26px;
+    padding-left: 20px;
+}
+.table{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}@font-face{
+    font-family: font-1;
+    src: url(Meriva.otf);
+}
+.table ul{
+       display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+}.table li{
+width: 121px;
+    
+
+}
+.list a{
+     color: #fff;
+    text-decoration: none;
+     transition: color 1s ease; 
+     font-family: font-1;
+    
+}.list a:hover{
+    color: #ed1c24;
+}
+.botton{
+ margin-left: 212px;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.botton button{
+        width: 140px;
+    height: 48px;
+    background-color: #ed1c24;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: font-1;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    transition: background-color 1s ease; 
+}.botton button:hover{
+    background-color: transparent;
+    color: #ed1c24;
+}
+.text{
+  width: 100%;
+  height: 800px;  
+}
+.text img{
+    width: 100%;
+    height: 100%;
+}
+.image{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    
+}
+.image-1{
+    width: 50%;
+    height: 100%;
+    background-color: #f09130;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+ width: 370px;
+    height: 791px;
+    display: flex;
+    position: relative;
+    
+}
+.head img{
+width: 43%;
+height: 55%;
+position: absolute;
+ transform:rotate(360deg);
+ cursor: pointer;
+ left: 70px;
+}
+.head img:hover{
+  transform: rotate(90deg);
+  transition: transform 5s;
+}@font-face{
+    font-family: font;
+    src: url(Eksell-Display-TRIAL-Medium.ttf);
+}
+.head p{
+ position: absolute;
+    font-family: font;
+    top: 50px;
+    font-size: 84px;
+    color: #fff;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.image-2{
+    width: 50%;
+    height:100% ;
+    background-color: #fff;
+}
+.content{
+  margin-left: 116px;
+    width: 68%;
+    height: 67%;
+    margin-top: 149px;
+}
+.content-1{
+    height: 300px;
+    width: 100%;
+}
+.content-1 p{
+    letter-spacing: 1px;
+    font-size: 23px;
+
+
+}
+.content-2{
+    height: 250px;
+    width: 100%;
+    
+}
+.content-2 p{
+     letter-spacing: 1px;
+    font-size: 23px;
+}
+.content-3{
+    width: 100%;
+   height: 87px     
+ }
+.content-3 p{
+     letter-spacing: 1px;
+    font-size: 23px;
+}
+.tag{
+height: 50px;
+ width: 100%; 
+}
+.tag ul{
+   list-style-type: none;
+    display: flex;
+    padding-left: 3px;
+    gap: 5px;
+}
+.poll{
+    width: 100%;
+    height: 100%;
+}
+.poll img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+}
+.black{
+   width: 30%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 68px;
+    
+}
+.black-1{
+    width: 391px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.black-1 strong{
+    line-height: 25px;
+
+}.black-2{
+    width: 320px;
+    height: 220px;
+    margin-top: 40px;   
+    margin-left: 47px;
+
+}.red{
+    width: 100%;
+    height: 55%;
+}.red-1{
+    height:30px;
+    width: 100%;
+}.red-1 a{
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}.red-1 p{
+    margin-bottom: 0
+}
+.red strong{
+    line-height: 30px; 
+}.set{
+      display: flex;
+    float: left;
+    width: 100%;
+    gap: 10px;
+    height: 60px;
+    padding-top: 0;
+
+
+}.set a{
+    background-color: black;
+        width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}.set a:hover{
+    background-color: #ed1c24;
+    transition: background-color 1s ease;
+}
+
+
+
+
